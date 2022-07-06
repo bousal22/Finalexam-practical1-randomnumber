@@ -1,6 +1,6 @@
 package practical1;
 
-import java.util.Scanner;
+
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.concurrent.ThreadLocalRandom;
@@ -9,7 +9,7 @@ public class RandomNumbers {
 
 	public static void main(String[] args) {
 		
-		 Scanner scannerObject = new Scanner(System.in);
+		 
 
 		
 		Set<Integer> mySet = new TreeSet<>();
@@ -27,7 +27,7 @@ public class RandomNumbers {
 		System.out.println(mySetArray[0]);
 		System.out.println(mySetArray[3]);
 		
-		System.out.println("Give me the smallest number of the array");
+	
 		
 		
 
